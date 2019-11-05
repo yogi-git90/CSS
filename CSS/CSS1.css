@@ -1,0 +1,1527 @@
+.general{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    background-color: tomato;
+}
+
+label.general{
+    color: brown; 
+}
+
+.large{
+    font-size: 30px;
+}
+
+h1, h2{
+    margin-top: 5px;
+    color: rgb(250, 250, 250);
+    background-color: dodgerblue;
+    border: 3px solid rgb(15, 140, 150);
+    
+}
+
+body{
+    /* background-color:Khaki; */
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+
+    
+    background-image: url("images/background1.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: 800px 600px; */
+    /* background-position: right top;
+    background-repeat: no-repeat; */
+    /* background-repeat: round; */
+    /* we can write all background properties in one line as below: */
+    /* background: #ffffff url("background1.jpg") no-repeat right top; */
+}
+.transparentBackground{
+    background-color: rgba(255, 99, 71, 0.5);
+    color: white;
+}
+
+.opacity{
+    background-color: rgba(255, 99, 71, 0.4);
+    color: white;
+}
+
+.hslaTransparent{
+    background-color: hsla(128, 71%, 38%, 0.4);
+    color: white;
+}
+
+#div1style{
+    border: 2px solid black;
+    padding: 8px;
+    background: url(images/tree.png) right top, url(images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+}
+
+p.one{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+p.two{
+    border-style: dashed;
+    border-width: medium;
+    border-color: green;
+}
+
+p.three{
+    border-style:double;
+    border-width: thick;
+    border-color: green red;
+}
+
+p.four{
+    border-style: solid;
+    border-width: 2px 10px 4px 20px; /* (Top, Right, Bottom, Left)*/
+    border-color: red green blue yellow;
+}
+
+p.five{
+    border-style: inset;
+    border-width: thick;
+}
+
+p.six{
+    border-style: outset;
+    border-width: thick;
+}
+
+p.seven{
+    border-style: ridge;
+    border-width: thick;
+}
+
+p.eight{
+    /* border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-right-style: inset;   This code can also be written in one single line as below: */
+    border-style: dashed dotted double inset;
+    border-width: thick; 
+    border-color: blueviolet aqua beige chocolate;
+}
+
+p.nine{
+    border-left: 5px solid red;
+    background-color: lightgray;
+}
+
+p.ten{
+    border-bottom: 5px solid coral;
+    background-color: lightgray;
+}
+
+p.eleven{
+    text-align: center;
+    border: 2px solid red;
+    background-color: lightgray;
+    border-radius: 12px;
+}
+
+p.margin1{
+    /* margin: 25px 25px 30px 20px;  */
+    background-color: lightgray;
+    width: 300px;
+    margin: auto; 
+    border: 2px solid brown;
+}
+
+p.margin2{
+    background-color: lightgray;
+    margin: 25px 25px 80px 20px; 
+    border: 2px solid brown;
+}
+
+p.padding1{
+    border: 2px solid brown;
+    background-color: lightgray;
+    /* padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 30px; */
+    width: 500px;
+    padding: 25px 25px 25px 25px;
+    box-sizing: border-box; /*if this is used, the extra padding width is not applied */
+}
+
+.div1{
+    height: 200px;
+    width: 48%;
+    background-color: cornsilk;
+    float: left;
+    border: 2px solid black;
+    padding: 10px;
+}
+.div2{
+    max-height: 200px;
+    overflow: auto;
+    width: 48%;
+    background-color: cornsilk;
+    float: right;
+    border: 2px solid black;
+    padding: 10px;
+}
+.div3{
+    width: 47%;
+    background-color: cornsilk;
+    float: left;
+    border: 5px solid brown;
+    padding: 10px;
+    /* outline-color: rgb(230, 226, 28);
+    outline-style: outset;
+    outline-width: 5px; */
+    outline: 5px outset yellow;
+    outline-offset: 2px;
+    margin-top: 10px;
+}
+
+.div4{
+    width: 47.2%;
+    max-height: 225px;
+    overflow: auto;
+    margin-top: 2px;
+    margin-right: 2px;
+    background-color: cornsilk;
+    float: right;
+    border: 5px solid brown;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.8;
+    word-spacing: 10px;
+    text-shadow: 1px 1px rgb(182, 171, 25);
+    
+}
+
+.div5{
+    margin-top: 10px;
+    height: 250px;
+    width: 48%;
+    background-color: rgb(179, 236, 162);
+    float: left;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+a:link {
+    /* background-color: yellow; */
+  }
+
+a:visited {
+    background-color: cyan;
+  }
+  
+a:hover {
+    background-color: lightgreen;
+  }
+  
+a:active {
+    background-color: hotpink;
+  }
+
+table, th, td {
+    border: 1px solid white;
+    background-color: rgb(9, 9, 26);
+    color: white;
+    border-collapse: collapse;  
+    padding: 10px;
+  }
+th, td{
+    height: 30px;
+}
+
+table.classT tr:hover td {
+    background-color: rgb(118, 32, 189);
+    }
+table.classT{
+    width: 50%;
+    table-layout: auto;
+}
+
+th {
+    background-color: rgb(102, 19, 46);
+    color: white;
+    text-align: left;
+  }
+  .fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+    color: azure;
+    background-color: rgb(86, 94, 91);
+  }
+
+  .sticky{
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    padding: 3px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    color: rgb(0, 8, 8);
+    text-align: center;
+  }
+
+  .topLeft{
+      position: absolute;
+      top: 80px;
+      left: 10px;
+      font-size: 20px;
+      font-weight:800;
+      text-shadow: 2px 2px rgb(0, 255, 42); 
+  }
+
+  .topRight{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-size: 20px;
+    text-shadow: 2px 2px yellow;
+    font-weight: bold;
+}
+
+.centered{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    font-size: 20px;
+    text-shadow: 2px 2px yellow;
+    font-weight: bold;
+
+}
+
+  .image1{
+      width: 100%;
+      height: 250px;
+      filter: blur(5px);
+      /* -webkit-filter: blur(5px); */
+  }
+
+.boxShadow{
+    height: 250px;
+    width: auto;
+    background-color: #f4f7ef;
+    padding: 0.01em 16px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 20px 5px rgb(214, 194, 14);
+}
+
+.div6{
+    height: 150px;
+    width: 65%;
+    float: left;
+    border-left: 5px solid green;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: beige;
+    box-shadow: 10px 10px 15px grey;
+}
+.div7{
+    height: 150px;
+    width: 30%;
+    float: right;
+    padding: 10px;
+    margin-top: 15px;
+    /* background-color: beige; */
+    background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(206, 114, 39)), to(rgb(189, 202, 8)));
+    border-right: 5px solid green;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.objectfit{
+    max-width:100%;
+    max-height:100%;
+    -webkit-box-reflect: right;
+}
+
+    @-webkit-keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+    }
+ 
+    @keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+    }   
+
+    @keyframes animate-stripes {
+        0% {
+            background-position: 0 0;
+        }
+    
+        100% {
+            background-position: 60px 0;
+        }
+    }
+    
+    @keyframes auto-progress {
+      0% {
+        width: 0%;
+      }
+    
+      100% {
+        width: 100%;
+      }
+    }
+    
+    .progress-bar {
+        background-color: #1a1a1a;
+        height: 20px;
+        width: 200px;
+        margin: 20px auto;
+        border-radius: 5px;
+        box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    }
+    
+    .stripes {
+        background-size: 30px 30px;
+        background-image: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, .15) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .15) 50%,
+            rgba(255, 255, 255, .15) 75%,
+            transparent 75%,
+            transparent
+        );
+    }
+    
+    .stripes.animated {
+      animation: animate-stripes 0.6s linear infinite;
+    }
+    
+    .stripes.animated.slower {
+      animation-duration: 1.25s;
+    }
+    
+    .stripes.reverse {
+      animation-direction: reverse;
+    }
+    
+    .progress-bar-inner {
+      display: block;
+      height: 20px;
+      width: 0%;
+      background-color: #34c2e3;
+      border-radius: 3px;
+      box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+      position: relative;
+      animation: auto-progress 4s infinite linear;
+    }
+
+    .floatLeft{
+        height: 150px;
+        float: left;
+        padding: 10px;
+        margin-top: 15px;
+        background-color: rgb(10, 10, 3);
+        border-left: 5px solid green;
+        box-shadow: 10px 10px 15px grey;
+        margin-right:15px;
+        max-width:100%;
+    }
+
+    .boxes{
+        background-color: grey;
+        float: left;
+        padding: 50px;
+        width: 33.33%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+
+      }
+
+    .imageContainer{
+        background-color: rgb(14, 2, 2);
+        float: left;
+        padding: 5px;
+        width: 33.33%;
+        box-sizing: border-box;
+    }
+
+    .imageContainer1{
+        background-color: rgb(14, 2, 2);
+        float: left;
+        padding: 5px;
+        width: 25%;
+        box-sizing: border-box;
+    }
+    .imgParentDiv{
+        overflow:auto;
+        background-color: #4CAF50;
+        border: 2px solid white;
+    }
+
+    
+    
+    
+    .flexContainer{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: dodgerblue;   
+    }
+    .flexContainer .box{
+        background-color: #f1f1f1;
+        width: 50%;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+    /* ---------------------------------------------- */
+
+    .ulClass{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    .ulClass li{
+            float: left;    
+    }
+
+    a.ulclassElements{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    a.ulclassElements:hover {
+        background-color: #111;
+      }
+
+    .active {
+        background-color: red;
+      }
+
+      .iframe{
+          width: 100%;
+          height: 300px;
+          overflow: auto;
+          padding: 14px;
+          background-color: cadetblue;
+
+      }
+
+      .iFrameHeader, .iFrameFooter {
+        background-color: grey;
+        color: white;
+        font-size: 25px;
+        padding: 15px;
+        overflow: hidden;
+      }
+
+      .border-box{
+          box-sizing: border-box;
+      }
+      .iFrameLeftMenu{
+          float: left;
+          padding: 10px;
+          width: 25%;
+          box-sizing: border-box;
+
+      }
+
+      .iFrameLeftMenu ul{
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
+
+      .iFrameLeftMenu li{
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #33b5e5;
+        color: #ffffff;
+      }
+
+      .iframeContent{
+         float: right;
+         padding: 15px;
+         margin-top: 10px;
+         width: 72%; 
+         background-color: #cae8ca;
+      }
+
+      .iFrameLeftMenu li:hover{
+        background-color: #554e4e;
+    }
+
+    .spanContainer{
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid rgb(86, 94, 91);
+        background-color: darkgreen;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+
+    .spanContainer span{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        display: inline-block;
+        margin-right: 5px;
+
+    }
+    .spanContainer div{
+        width: 25%;
+        height: 200px;
+        background-color: yellow;
+        /* display: inline-block; */
+        /* margin-right: 5px; */
+        box-sizing: border-box;
+        float: left;
+        color: whitesmoke;
+        border: 1px solid red;
+
+    }
+
+    .generalDiv{
+        margin-top: 5px;
+        height: auto;
+        background-color: rgb(179, 236, 162);
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+    a.pseudoClass :hover{
+        color: red;
+
+    }
+
+    a.pseudoClass :hover p.abc{
+        display: block;
+    }
+
+    .textareaClass{
+        width: 40%;
+        height: 100px;
+
+    }
+
+    textarea.textareaClass::first-letter{
+        color: #ff0000;
+        font-size: xx-large;
+
+    }
+
+    textarea.textareaClass::first-line{
+        font-variant: small-caps;
+        color: #0000ff;
+        font-style: italic;
+
+    }
+
+    p.abce::first-letter{
+        color: #ff0000;
+        font-size: xx-large;
+
+
+    }
+
+    p.abce::first-line{
+        font-variant: small-caps;
+        color: #0000ff;
+
+    }
+
+    h1.beforeContent::before{
+        content: url(gif/spinner.gif)
+    }
+    h2.afterContent::after{
+        content: url(gif/spinner.gif)
+    }
+
+    h2.selectionClass::selection{
+        color:yellow;
+        background-color: black;
+        font-size: large;
+    }
+
+    .opacityHover{
+        width: 100%;
+        opacity: 0.5;
+    }
+
+    img.opacityHover:hover{
+        opacity: 1;
+    }
+
+    .ulNav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        background-color: #241f1f;
+    }
+
+    .ulNav li{
+        display: inline-block;
+        border-right: 1px solid #bbb;
+    }
+    .ulNav li:last-child{
+        border-right: none;
+    }
+    ul.ulNav a{
+        display: block;
+        color: rgb(248, 246, 246);
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    ul.ulNav a.active {
+        background-color: rgb(230, 162, 16);
+        color: white;
+      }
+
+    ul.ulNav a:hover:not(.active){
+        background-color: #555;
+        color: white;
+
+    }
+/* /------------------------------------------------/ */
+    
+.ulNavVerticle{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 24.3%;
+    background-color: #f1f1f1;
+    position: absolute;
+    overflow: auto; 
+    height: 800px;    
+}
+
+ul.ulNavVerticle a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.ulNavVerticle a.active {
+    background-color: rgb(230, 162, 16);
+    color: white;
+  }
+
+ul.ulNavVerticle a:hover:not(.active){
+    background-color: #555;
+    color: white;
+
+}
+
+.rightSideDiv{
+    margin-left:25%;
+    padding:0px 16px;
+    height:624px;
+}
+/* ------------------------------------------- */
+   
+.ulNav1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #241f1f;
+}
+
+.ulNav1 li{
+    display: inline-block;
+    border-right: 1px solid #bbb;
+}
+
+ul.ulNav1 a{
+    display: block;
+    color: rgb(248, 246, 246);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.ulNav1:hover .homeDropdown-content {
+    display: block;
+    background-color: #554e4e;
+}
+
+.homeDropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.homeDropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+/* ---------------------------------------- */
+  input[id="abc12345"]{
+    background-color: rgb(245, 245, 81);
+  }
+  
+  input[placeholder="def12345"]{
+    background-color: rgb(139, 173, 139);
+    color: white;
+}
+
+[id~=ghi]{
+        border: 1px solid red;
+    }
+[id^=jkl]{
+        border: 1px solid green;
+    }
+[id$=pqr]{
+        border: 1px solid blue;
+    }
+[id*=learn]{
+        background-color: rgb(184, 179, 179);
+    }
+    
+input[type="button"] {
+    width: 150px;
+    display: block;
+    background-color: #34c2e3;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid blue;
+    margin-bottom: 5px;
+      }
+
+input[type=text]:hover{
+        background-color: rgb(109, 103, 107);
+        color: white;
+    }
+    
+input[type=text]:focus{
+        background-color: rgb(255, 255, 255);
+        color: black;
+    } 
+
+input[type=text]{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 8px;
+    border-radius: 5px;
+
+}
+
+input[type=button]:hover{
+    background-color:rgb(32, 31, 28); 
+    color: white;
+    cursor: pointer;
+}
+
+input[id=search]{
+    width: 50%;
+    border: 2px solid rgb(87, 84, 84);
+    font-size: 20px;
+    background-image: url(images/searchIcon.PNG);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px 35px;
+    padding-bottom: 10px;
+}
+
+input[id=searchAnimated]{
+    width: 20%;
+    border: 2px solid rgb(87, 84, 84);
+    font-size: 20px;
+    background-image: url(images/searchIcon.PNG);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 35px 35px;
+    padding-bottom: 10px;
+
+    /* -webkit-transition: width 0.4s ease-in-out; */
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[id=searchAnimated]:focus{
+    width: 70%;
+}
+
+.borderImage{
+    border: 15px solid transparent;
+    border-image: url(images/border.png) 30 stretch;
+    padding: 20px;
+}
+.borderImage1{
+    border: 15px solid transparent;
+    border-image: url(images/border.png) 30 round;
+    padding: 20px;
+}
+.borderImage2{
+    border: 15px solid transparent;
+    border-image: url(images/border.png) 20 space;
+    padding: 20px;
+}
+.borderImage3{
+    border: 15px solid transparent;
+    border-image: url(images/border.png) 30 fill;
+    padding: 20px;
+}
+
+.multipleBackgrounds{
+    background: url(images/border.png) left top no-repeat ,url(images/tree.png) right bottom no-repeat, url(images/texture1.PNG) left top repeat ;
+    background-size: 400px 30px, 100px 150px, 30px 30px;
+    padding: 20px;
+}
+
+.linearGradient{
+    height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right, red, yellow);
+    color:#3f3a3a;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.radialGradient{
+    height: 100px;
+    padding: 15px;
+    background-image: radial-gradient(white,yellow, orange, red);
+    color:#3f3a3a;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.transform{
+    height: 100px;
+    width: 50%;
+    color: black;
+    background-color: wheat;
+}
+
+.transition{
+    height: 50px; width: 50px;
+    float: left;
+    padding: 5px;
+    opacity: 0.5;
+    transition: opacity 2s, width 2s, height 2s, transform 2s;
+
+}
+
+.transition:hover{
+    opacity: 1;
+    width: 150px;
+    height: 150px;
+    transform: rotate(360deg);
+
+}
+
+.transition1{
+    height: 50px; width: 50px;
+    float: left;
+    padding: 5px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.transition1:active{
+    width: 150px;
+    height: 150px;
+    transform: rotate3d(0, 1, 0, 360deg);
+}
+
+
+
+.emojiContainer{
+
+    border-radius: 8px;
+    float: left;
+    border: 1px solid red;
+    padding: 15px;
+    width: 40%;
+    margin-right: 25px;
+}
+
+
+.animDiv1{
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding: 15px;
+  margin-left: 90px;
+  background-color: red;
+  position: relative;
+  border-radius: 50%;
+
+  -webkit-animation-name: colorChangeBounce;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+
+  animation-name: colorChangeBounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bouncePlate{
+    width: 100px;
+    height: 10px;
+    position: relative;
+    top: 300px;
+    left: 80px;
+    background-color: white;
+}
+.animDiv2{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 15px;
+    margin-left: 25px;
+    background-color: red;
+    -webkit-animation-name: multiColorChange;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+      animation-name: multiColorChange;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+  }
+
+  .animDiv3{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: red;
+    padding: 25px;
+    margin-left: 15px;
+    text-align: center;
+    -webkit-animation-name: spinningDiv;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+      animation-name: spinningDiv;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+
+  .animDiv4{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    -webkit-animation: spinningMovableDiv 4s infinite alternate-reverse ;
+    animation: spinningMovableDiv 4s infinite alternate-reverse ;
+
+  }
+
+@keyframes colorChangeBounce{
+    from{background-color: red;}
+    to {background-color: yellow;}
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(145px);
+      }
+      100% {
+        width: 50px;
+        height: 40px;
+        border-radius: 50px / 40px;}
+}
+
+@keyframes multiColorChange{
+    0% {background-color: red;}
+    20% {background-color: yellow;}
+    40% {background-color: green;}
+    80% {background-color: black;}
+    80% {background-color: white;}
+    100% {background-color: red;}
+}
+
+@keyframes spinningDiv{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to  {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes spinningMovableDiv{
+    from{
+        transform: rotate(0deg);
+    }
+    to  {
+        transform: rotate(360deg);
+    }
+
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:800px; top:0px;}
+    50%  {background-color:blue; left:800px; top:300px;}
+    75%  {background-color:green; left:0px; top:300px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+/* ---------------------left tool tip--------------------- */
+.tooltipText1{
+    position: relative;
+    left: 140px  ;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+    padding: 5px;
+}
+.leftToolTip{
+    visibility: hidden;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 1px solid rgb(80, 76, 76);
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    right: 105%;
+    top: -3px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.leftToolTip::after{
+    content: "";
+    position: absolute;
+    border: 7px solid;
+    left: 99%;
+    top: 10px;
+    border-color:  transparent transparent transparent rgb(226, 226, 226); 
+    
+}
+.tooltipText1:hover .leftToolTip{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ---------------------right tool tip--------------------- */
+.tooltipText2{
+    position: relative;
+    left: 140px  ;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+    padding: 5px;
+}
+
+.rightToolTip{
+    visibility: hidden;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 1px solid rgb(80, 76, 76);
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    left: 105%;
+    top: -3px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.rightToolTip::after{
+    content: "";
+    position: absolute;
+    border: 7px solid;
+    right: 99%;
+    top: 10px;
+    border-color:  transparent rgb(226, 226, 226) transparent transparent ;     
+}
+.tooltipText2:hover .rightToolTip{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ---------------------top tool tip--------------------- */
+.tooltipText3{
+    position: relative;
+    left: 140px  ;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+    padding: 5px;
+}
+
+.topToolTip{
+    visibility: hidden;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 1px solid rgb(80, 76, 76);
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    left: 0%;
+    top: -35px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.topToolTip::after{
+    content: "";
+    position: absolute;
+    border: 7px solid;
+    left: 45%;
+    top: 33px;
+    border-color:  rgb(226, 226, 226) transparent transparent transparent ;     
+}
+.tooltipText3:hover .topToolTip{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ---------------------bottom tool tip--------------------- */
+.tooltipText4{
+    position: relative;
+    left: 140px  ;
+    display: inline-block;
+    border-bottom: 1px dotted white;
+    padding: 5px;
+}
+.bottomToolTip{
+    visibility: hidden;
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 1px solid rgb(80, 76, 76);
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    left: 0%;
+    top: 45px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.bottomToolTip::after{
+    content: "";
+    position: absolute;
+    border: 7px solid;
+    left: 45%;
+    top: -13px;
+    border-color:  transparent transparent rgb(226, 226, 226) transparent ;     
+}
+
+.tooltipText4:hover .bottomToolTip{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ----------------------------------------------- */
+.imgOverlayContainer{
+    position: relative;
+    width: 50%;
+}
+
+.imgOverlayContainer:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.avatar{
+    display: block;
+    max-width: 50%;
+    max-height: auto;
+}
+.overlay{
+    position: absolute;
+    bottom: 100%;
+    height: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    overflow: hidden;
+    background-color: royalblue;
+    overflow: hidden;
+    transition: .8s ease;
+}
+.overlayText{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.buttonPress{
+    display: inline-block;
+    background-color: #4CAF50;
+    box-shadow: 0 8px rgb(129, 126, 126);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px 25px;
+    margin-left: 100px;
+    opacity: 1;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.buttonPress:active{
+    box-shadow: 0 5px #555;
+    transform: translateY(5px);
+}
+
+.buttonPress:hover{
+    background-color: rgb(72, 141, 74);
+}
+
+.columns{
+
+    column-count: 5;
+    column-gap: 20px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+    /* shortHand Property - 
+    column-rule: 1px solid lightblue; */
+}
+
+
+.resizable{
+    width: 50%;
+    display: block;
+    margin-left: 20px;
+    border: 4px solid black;
+    resize: both;
+    overflow: auto;
+    background-color: rgb(176, 221, 105);
+    outline: 4px solid green;
+    outline-offset: 8px;
+}
+
+.flexboxContainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+
+.flexboxContainer1 > div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.displayGrid{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flexPractice1{
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    display: flex;
+    height: 1rem;
+	font-size: .75rem;
+}
+.flexPractice2{
+    display: flex;
+	justify-content: center;
+	color: #fff;
+	background-color: #007bff;
+
+}
+
+.outerCircle{
+    display: flex;
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    background-color: rgb(63, 75, 80);
+    margin-left: 125px;
+    position: relative;
+    top: 20px;
+    animation: colorchange 7s linear infinite ;
+}
+
+.outerCircle1{
+    height:200px;
+    width:400px;
+    border-radius: 0 0 200px 200px;
+    background:url(gif/ocean2.gif);
+    margin-left: 125px;
+    position: relative;
+    top: -595px;
+    animation: daynight 7s linear infinite;
+}
+.starsCircle{
+    height:200px;
+    width:400px;
+    border-radius: 200px 200px 0 0;
+    background:url(gif/stars3.jpg);
+    position: relative;
+    margin-left: 125px;
+    top: -380px;
+    opacity: 0;
+    animation: stars 7s linear infinite;
+}
+
+.clouds1{
+    height:200px;
+    width:400px;
+    border-radius: 200px 200px 0 0;
+    background: url(gif/clouds.png);
+    position: relative;
+    margin-left: 125px;
+
+
+    animation: clouds 7s linear infinite;
+}
+
+.spinner-grow{
+    display: flex;
+    display: inline-block;
+	width: 1rem;
+	height: 1rem;
+    margin-left: 125px;
+	background-color: orange;
+	border-radius: 50%;
+	opacity: 0;
+    position: relative;
+    top: -500px;
+    left: 20px;
+	animation: spinner-grow 7s linear infinite;
+}
+
+@keyframes spinner-grow {
+	0% {
+        opacity: 0;
+	}
+	50% {
+        opacity: 1;
+        transform: scale(4) translateX(70px);
+        background-color: yellow;
+    }
+    51%{
+        opacity: 0;
+        background-color: none;
+        transform: translateX(-10px);
+    }
+    52% {
+        background-color: gray;
+        width: 1rem;
+        height: 1rem;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(4) translateX(70px);
+        background-color: white;
+    }
+
+}
+
+@keyframes daynight{
+    0%{
+        filter: none;
+    }
+    
+    50%{
+        filter:brightness(150%);
+    }
+    75%{
+        filter:brightness(100%);
+    }
+    100%{
+        filter:brightness(10%);
+        filter:grayscale(80%);
+    }
+
+}
+
+@keyframes colorchange{
+  
+    25%{
+        background-color: skyblue;
+    }
+    50%{
+        background-color: rgb(149, 183, 228);
+    }
+    60%{
+        background-color: rgba(197, 90, 28, 0.74);
+    }
+    100%{
+        background-color: rgb(31, 28, 27);
+    }
+
+}
+
+@keyframes stars{
+0%{
+    opacity: 0;
+}
+75%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+
+}
+
+/* @keyframes clouds{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
